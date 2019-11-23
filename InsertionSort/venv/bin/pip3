@@ -1,4 +1,4 @@
-#!/Users/kovalgek/Documents/sources/python/insertSort/venv/bin/python
+#!/Users/kovalgek/Documents/sources/python/algorithms/InsertionSort/venv/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==9.0.3','console_scripts','pip3'
 __requires__ = 'pip==9.0.3'
 import re

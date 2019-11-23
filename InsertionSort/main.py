@@ -1,5 +1,5 @@
 # sorting array by insert sort algorithm
-def insertSort(A):
+def insertionSort(A):
     for j in range(len(A)):
         key = A[j]
         i = j - 1
@@ -10,7 +10,7 @@ def insertSort(A):
 
 A = [5,3,66,12,89,2,3,13]
 
-insertSort(A)
+insertionSort(A)
 
 print("Sorted array is:")
 for i in range(len(A)):

@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/kovalgek/Documents/sources/python/insertSort/venv"
+VIRTUAL_ENV="/Users/kovalgek/Documents/sources/python/algorithms/InsertionSort/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
