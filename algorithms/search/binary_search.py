@@ -1,4 +1,5 @@
-def linearSearch(A, x):
+
+def binarySearch(A, x):
 
     left = 0
     right = len(A) - 1
@@ -22,7 +23,7 @@ def linearSearch(A, x):
 
 A = [1, 4, 6, 8, 15, 35, 67, 199, 245, 567, 789, 1000]
 
-mid = linearSearch(A, 1000)
+mid = binarySearch(A, 1000)
 
 print(mid)
 

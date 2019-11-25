@@ -25,11 +25,8 @@ def merge(A, p, q, r):
         else:
             A[k] = R[j]
             j = j + 1
-    print("merge% % % %",A, p, q, r)
-
 
 def mergeSort(A, p, r):
-    #print("mergeSort % % %",A,p,r)
     if p < r:
         q = (p + r) // 2
         mergeSort(A, p, q)
